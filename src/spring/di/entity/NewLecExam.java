@@ -10,13 +10,13 @@ public class NewLecExam implements Exam {
 	@Override
 	public int total() {
 		// TODO Auto-generated method stub
-		return 0;
+		return kor+eng+math+com;
 	}
 
 	@Override
-	public int avg() {
+	public float avg() {
 		// TODO Auto-generated method stub
-		return 0;
+		return total() / 4.0f; 
 	}
 
 }
